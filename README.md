@@ -29,3 +29,8 @@ It can perform arithmetic operations and translate simple phrases dynamically vi
 ### ‚ñ∂Ô∏è How to Run
 ```bash
 python agent_with_tools.py 6f8267c (Day 2: Added AI Agent with Tools and Tool Registry)
+## Ì∑† Day 3 - AI Agent with Memory
+- Implemented conversation memory using Python and JSON.
+- The agent now remembers previous chats and summarizes them.
+- Explored basic persistence using memory.json.
+
