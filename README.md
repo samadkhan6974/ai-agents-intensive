@@ -1,36 +1,17 @@
-## My AI agent journey
+# í·  Day 4 â€“ AI Agent Tools
 
-This repository will contain my learnings, code, and capstone project from Google's 5-Day AI Agents Intensive.
-# ai-agents-intensive
-# ai-agents-intensive
-# ai-agents-intensive
-HEAD
- ## âœ… Progress Tracker
+In Day 4, I built an AI Agent that can use external tools like:
+- íµ’ Time Tool â€” tells the current time
+- â• Calculator Tool â€” solves expressions
+- í´ Wikipedia Tool â€” searches and summarizes topics
+- í²¬ Personality & Memory â€” remembers context and responds naturally
+- í¾™ï¸ (Optional) Voice Input/Output â€” speaks and listens
 
-**Day 1 â€“ Introduction to Agents**  
-âœ”ï¸ Completed: Set up environment, created first agent loop, and pushed project to GitHub.
+### íº€ Tech Used
+Python, JSON, Wikipedia API, pyttsx3, SpeechRecognition
 
-Next: Day 2 â€“ Agent Tools & Interoperability with MCP
+### í²¡ Outcome
+The agent can now think, respond, and use real-world tools interactively.
 
- ---
-Day 2: Added AI Agent with Tools and Tool Registry
-
-## ğŸ§© Day 2 â€“ AI Agent with Tools
-
-### ğŸ” What I built
-I created an AI Agent capable of using multiple tools (Calculator + Translator).  
-It can perform arithmetic operations and translate simple phrases dynamically via a simulated Tool Registry â€” inspired by MCP (Model Context Protocol).
-
-### ğŸ§  Concepts Learned
-- How AI Agents access and use tools.
-- Using a **Tool Registry** for dynamic discovery.
-- Basic multi-tool system architecture.
-
-### â–¶ï¸ How to Run
-```bash
-python agent_with_tools.py 6f8267c (Day 2: Added AI Agent with Tools and Tool Registry)
-## í·  Day 3 - AI Agent with Memory
-- Implemented conversation memory using Python and JSON.
-- The agent now remembers previous chats and summarizes them.
-- Explored basic persistence using memory.json.
-
+---
+Next Step â†’ Day 5: Multi-Tool Agent
